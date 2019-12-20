@@ -583,23 +583,5 @@ public class gameboard
 		return answer;
 	}
 
-	private static void newGame()
-	{
-		Scanner input = new Scanner(System.in);
-		char answer;
-		
-		System.out.print("Would you like to play again?");
-		answer = input.next().charAt(0);
-		answer = Character.toUpperCase(answer);
-		
-		if (answer == 'Y')
-		{
-			System.out.println("\n\n\n\n\n\n\n\n\n\n");
-			Main.main(null);
-		}
-		else
-		{
-			System.exit(0);
-		}
-	}
+	
 }
