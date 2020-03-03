@@ -51,7 +51,7 @@ public class gameBoard
 				cheater = true;
 			}
 			
-			if (seeOtherBoard != 'Y' || seeOtherBoard != 'N')
+			if (seeOtherBoard != 'Y' && seeOtherBoard != 'N')
 			{
 				System.out.println("\n\nInvalid entry.  Try again.\n\n");
 			}
